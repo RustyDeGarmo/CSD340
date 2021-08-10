@@ -1,2 +1,10 @@
 # csd-340
-Hello Professor Sampson
+# CSD 340 Web Development with HTML and CSS
+
+## Contributors
+
+* Professor Sampson
+* Rusty DeGarmo
+
+
+
