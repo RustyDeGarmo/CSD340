@@ -64,6 +64,10 @@ header {
     background-color: white;
 }
 
+#hero {
+    max-width: 500px;
+}
+
 br {
     clear: both;
 }
