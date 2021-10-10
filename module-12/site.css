@@ -1,0 +1,207 @@
+/*
+Rusty DeGarmo
+Professor Sampson
+Web Development with HTML and CSS
+*/
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #EBEBD3;
+}
+
+h1, h2 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #131112;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+header {
+    background-color: #A4303F;
+    padding-bottom: 20px;
+    text-align: center;
+    border-top: 1px solid #131112;
+}
+
+#navbar {
+    text-align: center;
+    overflow: hidden;
+    background-color: #C99DA3;
+    padding-top: 10px;
+    border-bottom: 27px solid #A4303F;
+}
+
+#navbar a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 30%;
+    color: #131112;
+}
+
+
+#navbar a:hover {
+    background-color: #A4303F;
+}
+
+#navbar a.current {
+    background-color: #A4303F;
+}
+
+#container {
+    margin: 2% 5% 0% 5%;
+    padding: 10px;
+    background-color: white;
+}
+
+br {
+    clear: both;
+}
+
+figure {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+img {
+    width: 80%;
+    border: 1px solid #131112;
+    margin-left: 10%;
+}
+
+figcaption {
+    text-align: center;
+    width: 85%;
+    margin-left: 7.5%;
+    font-style: italic;
+    border-bottom: 1px solid #131112;
+}
+
+#left {
+    width: 30%;
+    margin: 0 1.5%;
+    float: left;
+}
+
+#middle {
+    width: 30%;
+    margin: 0 1.5%;
+    float: left;
+}
+
+#right {
+    width: 30%;
+    margin: 0 1.5%;
+    float: left;
+}
+
+#hobbies #left {
+    width: 25%;
+}
+
+#hobbies #middle {
+    width: 40%;
+}
+
+#hobbies #right {
+    width: 25%;
+}
+
+#hobbies #middle figure {
+    max-width: 800px;
+}
+
+#experience {
+    width: 100%;
+}
+
+#contact {
+    width: 30%;
+    margin-left: 5%;
+}
+
+#contact h2 {
+    text-align: left;
+}
+
+.card {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #4F3674;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+    margin: 0 2%;
+}
+
+.card ul {
+    margin-left: 10%;
+}
+
+form input, button {
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-left: .75%;
+}
+
+form .caption {
+    font-style: italic;
+    font-size: .75em;
+}
+
+footer {
+    background-color: #A4303F;
+    width: 100%;
+    padding-bottom: 15px;
+    
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    padding-right: 10px;
+    font-style: italic;
+    text-align: left;
+}
+
+footer a {
+    float: right;
+    text-decoration: none;
+    color: #131112;
+    padding: 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    background-color: #C99DA3;
+}
